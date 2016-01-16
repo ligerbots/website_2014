@@ -1,3 +1,5 @@
+*~
+error_log
 *.log
 .htaccess
 sitemap.xml

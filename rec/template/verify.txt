@@ -1,0 +1,15 @@
+Hello %firstname%,
+My name is Nicholas and I'm one of the executives and webmasters of the robotics team. You are receiving the email because you either registered previously but have not yet activated your account, or just registered and have been waiting for this email to arrive.
+In order to ensure the team is able to contact you if nececary, we must ensure that we have accurate and updated information.  Please take a moment to review the information below and ensure that it is accurate.  If it is incorrect or needs to be changed in any way, simply reply to this email and we will work to resolve the issue ASAP.
+The following information is shown as it appears in our database:
+First Name: %firstname%
+Last Name: %lastname%
+Email Address: %email%
+Phone Number: %phone%
+Address: %address%
+%city% %state%, %zipcode%
+If the above information is correct, please click the below link to verify your account:
+http://ligerbots.org/verify.php?key=%key%
+Thank you for your time, and have a nice day!
+Nicholas Hollander
+FRC Team 2877

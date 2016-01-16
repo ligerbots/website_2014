@@ -1,0 +1,311 @@
+﻿body {
+font-family: Verdana;
+background-image: url("../img/bg.jpg");
+background-position: center;
+background-repeat: repeat-y;
+background-color: #161616;
+color: #D2D8DE;
+}
+#content,#sidebar{ display: inline; position: relative; float: left; }.clear{ clear: both;}
+.header {
+text-align: center;
+}
+
+#header-logo {
+width: 90%;
+min-width: 700px;
+max-height: 350px;
+/* max-width: 2000px; */
+}
+
+.navbar {
+width: 90%; min-width: 720px; /* max-width: 2000px; */
+background-color: rgba(0, 0, 0, .15);
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px; padding-bottom: 10px; padding-left: 1%; padding-right: 1%;
+padding-top: 10px; padding-bottom: 10px; padding-left: 1%; padding-right: 1%;
+}
+.navlink {
+padding: 10px;
+margin: 0px, 10px;
+transition:background-color .25s;
+text-decoration: none;
+color: #D2D8DE
+}
+.navlink:hover {
+background-color: rgba(0, 0, 0, .2);
+}
+#main {
+width: 92%;
+min-width: 720px;
+max-width: calc(2000px + 1%);
+margin-left: auto;
+margin-right: auto;
+padding-right: 0;
+padding-top: 2%;
+padding-left: 0;
+}
+#content {
+width: 86%; margin-right: 2%;
+vertical-align: top;
+}
+#sidebar {
+width: 10%;
+background-color: rgba(255, 255, 255, 0.41);
+text-align: center;
+vertical-align: top;
+padding: 1%;
+}
+.sidebar img {
+width: 100%;
+margin-top: 15px;
+}
+.userbar { z-index: 1;
+padding: 15px;
+background-color: rgba(255, 255, 255, 0.41)
+position: fixed;
+top: 0px;
+right: 0px;
+}
+.warningbar {
+padding: 15px;
+background-color: rgba(255, 0, 0, .15);
+position: fixed;
+top: 0px;
+left: 0px;
+width: 250px;
+}
+.warningbar a {
+color: white;
+text-decoration: underline;
+}
+.error {
+padding: 5px;
+background-color: rgba(255, 0, 0, .15);
+width: 40%;
+}
+.message {
+padding: 5px;
+background-color: rgba(0, 255, 0, .15);
+width: 40%;
+}
+.adminpanel {
+padding: 15px;
+background-color: rgba(0, 0, 0, .15);
+position: fixed;
+top: 0px;
+left: -240px;
+width: 250px;
+transition: left .75s;
+}
+.adminpanel:hover {
+left: 0px;
+}
+.notification_warning{
+margin: 2px;
+padding: 10px;
+background-color: rgba(255, 255, 0, .15);
+width: 90%;
+transition: background-color .25s;
+}
+.notification_warning:hover {
+background-color: rgba(255, 255, 0, .25);
+}
+.notification_okay{
+margin: 2px;
+padding: 10px;
+background-color: rgba(0, 255, 0, .15);
+width: 90%;
+transition: background-color .25s;
+}
+.notification_okay:hover{
+background-color: rgba(0, 255, 0, .25);
+}
+.usertable {
+width: 90%;
+background-color: rgba(0, 0, 0, .15);
+}
+.usertable .row {
+background-color: rgba(0, 0, 0, .15);
+}
+.usertable .row .cell {
+padding: 2px;
+background-color: rgba(0, 0, 0, .15);
+}
+.usertable .row .titlecell {
+font-style: bold;
+}
+#warning {
+background-color: rgba(255, 255, 0, .15);
+}
+#small {
+font-size: 10px;
+transform: rotate(45deg);
+}
+.filters {
+text-align: right;
+}
+.filters select{
+width: 100%;
+}
+.filters input {
+width: 98%;
+}
+.userlink {
+transition: padding-left .25s;
+color: white;
+text-decoration: none;
+}
+.userlink:hover {
+padding-left: 10px;
+}
+.hiddeninput {
+background-color: rgba(0, 0, 0, 0);
+border: none;
+color: inherit;
+font-size: inherit;
+width: 99%;
+}
+.hiddeninput:hover {
+background-color: rgba(255, 255, 255, .2);
+}
+.invisible {
+height: 0;
+width: 0;
+position: fixed;
+left: -50px;
+right: -50px;
+user-select: none;
+}
+.right {
+float: right;
+}
+#editor {
+width: 100%;
+height: 550px;
+}
+.post {
+background-color: rgba(0, 0, 0, .10);
+}
+.post ptitle {
+padding: 5px;
+font-size: 25px;
+padding-left: 15px;
+padding-top: 15px;
+}
+.post pinfo {
+padding: 5px;
+padding-left: 15px;
+font-size: 12px;
+}
+.post .content {
+font-size: initial;
+margin: 10px;
+padding: 25px;
+}
+.posteditbar {
+text-align: right;
+width: 100%;
+margin-right: 10px;
+transform: translate(0px, -4px);
+}
+.posteditbar a {
+text-decoration: none;
+}
+.posteditbar a:hover {
+color: #FFFFFF;
+}
+a {
+color: inherit;
+}
+#red {
+background-color: rgba(255, 0, 0, .15);
+transform: background-color .25;
+}
+#red:hover {
+background-color: rgba(255, 0, 0, .25);
+}
+#green {
+background-color: rgba(0, 255, 0, .15);
+transform: background-color .25;
+}
+#green:hover {
+background-color: rgba(0, 255, 0, .25);
+}
+.delbutton {
+padding: 10px;
+font-size: 20px;
+background-color: rgba(0, 0, 0, .15);
+}
+#phone 
+{
+white-space: nowrap;
+}
+.nowrap
+{
+white-space: nowrap;
+}
+.directory 
+{ width: 100%;
+background-color: rgba(0, 0, 0, .1);
+}
+.Directory_User 
+{
+width: 23%;
+display: inline;
+float: left;
+height: 360px;
+padding-right: 1%;
+padding-left:1%;
+}
+.Directory_User center {
+font-size: 26px;
+}
+img.directory_user_image {
+
+}
+
+.facebook_entry
+{
+	float:left;
+	width: 180px; 
+	height:266px; 
+	font-size: small;
+}
+
+.facebook_entry .name
+{
+	float:left;
+}
+
+.facebook_entry .exec
+{
+	color: #FFFF00;
+}
+
+
+.paddedcell
+{
+padding: 6px;
+}
+
+}
+.dheader {
+background-color: rgba(0, 0, 0, .15);
+font-weight: bold;
+}
+.carpool {
+height: 1000px;
+width: 100%;
+border:none;
+background-color: rgba(255, 255, 255, 0.2);
+}.footer { text-align: center; }
+.gnav {
+width:
+background-color: rgba(0, 0, 0, .15);
+margin-left: auto;
+margin-right: auto;
+padding: 15px;
+padding-left: 10px;
+}
